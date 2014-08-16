@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/linearLayoutMain"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:orientation="vertical">
+
+    <LinearLayout
+
+            android:id="@+id/linearLayoutTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Login"
+                android:id="@+id/statisticsPlayerLogin"
+                android:layout_weight="1">
+
+        </TextView>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Points"
+                android:id="@+id/statisticsPlayerPoints"
+                android:layout_weight="1">
+
+        </TextView>
+
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Win game"
+                android:id="@+id/statisticsPlayerWin"
+                android:layout_weight="1">
+
+        </TextView>
+        <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/statisticsPlayerLose"
+                android:text="Lose game"
+                android:layout_weight="1">
+
+        </TextView>
+
+
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/linearLayoutListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+        <LinearLayout
+
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+            <ListView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/statisticsPlayerListViewLogin"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+            <ListView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/statisticsPlayerListViewPoints"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+            <ListView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/statisticsPlayerListWin"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+            <ListView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/statisticsPlayerListViewLose"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
